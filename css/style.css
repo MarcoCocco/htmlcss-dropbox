@@ -32,7 +32,7 @@ body {
 
 .btn:hover {
     cursor: pointer;
-    filter: brightness(125%);
+    filter: brightness(130%);
 }
 
 a {
@@ -79,7 +79,6 @@ nav .nav-inner #logo img {
 nav .nav-inner ul li {
     padding: 23px 0;
     display: inline-block;
-    font-size: 0.8em;
 }
 
 nav .nav-inner ul li:hover {
@@ -243,7 +242,7 @@ main .contact-container .single-title {
 .contact-container .plan-lists-container {
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
