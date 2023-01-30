@@ -13,5 +13,55 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+.larger-container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* /Utilities */
+
+nav .nav-inner {
+    background-color: grey;
+    border: 1px dotted black;
+    /*test*/
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-inner #logo {
+    background-color: aqua;
+    border: 1px dotted black;
+    padding: 5px;
+    /*test*/
+    
+}
+
+nav .nav-inner ul li {
+    background-color: azure;
+    border: 1px dotted black;
+    /*test*/
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav .nav-inner .nav-left-menu, .nav-right-menu {
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav .nav-inner .nav-left-menu ul li {
+    margin-right: 30px;
+}
+
+nav .nav-inner .nav-right-menu ul li {
+    margin-left: 30px;
+}
+
+
 
