@@ -5,20 +5,24 @@
 }
 
 body {
+    min-width: 1010px;
     font-family: 'Open Sans', sans-serif;
 }
 
-.page-container {
+.header-container {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.larger-container {
-    max-width: 1100px;
+.page-container {
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
 /* /Utilities */
 
 nav .nav-inner {
@@ -37,7 +41,7 @@ nav .nav-inner #logo {
     border: 1px dotted black;
     padding: 5px;
     /*test*/
-    
+
 }
 
 nav .nav-inner ul li {
@@ -48,7 +52,8 @@ nav .nav-inner ul li {
     display: inline-block;
 }
 
-nav .nav-inner .nav-left-menu, .nav-right-menu {
+nav .nav-inner .nav-left-menu,
+.nav-right-menu {
     padding: 15px 10px;
     display: flex;
     align-items: center;
@@ -62,6 +67,35 @@ nav .nav-inner .nav-left-menu ul li {
 nav .nav-inner .nav-right-menu ul li {
     margin-left: 30px;
 }
+/* /Navbar */
 
+header {
+    width: 100%;
+    height: 540px;
+    margin-bottom: 7em;
+    background-color: #b4d0e7;
+}
 
+header .header-container h1 {
+    padding: 30px 0;
+    font-size: 3.5em;
 
+}
+
+header .header-container .header-info {
+    display: flex;
+}
+
+header .header-container .header-info .header-text {
+    max-width: 30%;
+    font-size: .8em;
+}
+
+header .header-container .header-info .header-text .free-trial-btn {
+    margin: 20px 0;
+}
+
+header .header-container .header-info .header-image img {
+    width: 100%;
+}
+/* /Header */
