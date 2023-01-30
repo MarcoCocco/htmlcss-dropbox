@@ -7,6 +7,7 @@
 body {
     min-width: 1010px;
     font-family: 'Open Sans', sans-serif;
+    font-size: .8em;
 
 }
 
@@ -23,19 +24,30 @@ body {
 }
 
 .btn {
-    padding: 5px 10px;
+    padding: 10px 20px;
     background-color: #0061ff;
     border: none;
     color: white;
+    transition: filter .5s;
 }
 
 .btn:hover {
     cursor: pointer;
+    filter: brightness(125%);
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+li {
+    list-style: none;
+}
+
+hr {
+    border: 1px solid #d0d0d3;
+    width: 100%;
 }
 
 /* /Utilities */
@@ -67,7 +79,6 @@ nav .nav-inner #logo img {
 
 nav .nav-inner ul li {
     padding: 23px 0;
-    list-style-type: none;
     display: inline-block;
     font-size: 0.8em;
 }
@@ -97,7 +108,7 @@ nav .nav-inner .nav-right-menu ul li {
 
 header {
     width: 100%;
-    height: 600px;
+    height: 580px;
     padding-top: 70px;
     margin-bottom: 5em;
     background-color: #b4d0e7;
@@ -115,7 +126,6 @@ header .header-container .header-info {
 
 header .header-container .header-info .header-text {
     max-width: 30%;
-    font-size: 0.8em;
 }
 
 header .header-container .header-info .header-text .free-trial-btn {
@@ -130,7 +140,7 @@ header .header-container .header-info .header-image img {
 
 main .business-plans h2 {
     font-size: 2em;
-    padding: 1em 0;
+    padding: 2em 0;
 }
 
 main .business-plans form {
@@ -149,16 +159,70 @@ main .plans-container {
 }
 
 main .plans-container .plan {
-    border: 1px solid black;
+    border: 1px solid #d0d0d3;
     width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
 }
 
-main .plans-container .professional .single-title {
+main .plans-container .plan .plan-lists-container {
+    padding: 20px 20px;
+}
+
+main .plans-container .plan .single-title {
     font-size: .8em;
     padding: 5px 0;
-    border-bottom: 1px solid black;
+    align-self: center;
+}
+
+main .plans-container .plan .title-plan ul li {
+    padding: 5px;
+}
+
+main .plans-container .plan .title-plan ul li:first-child {
+    font-size: 1.5em;
+}
+
+main .plans-container .plan .title-plan ul li:last-child {
+    color: #d0d0d3;
+}
+
+main .plans-container .plan .plan-list .users,
+.storage-space,
+.functions {
+    display: flex;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+main .plans-container .plan .button-container {
+    align-self: center;
+    padding: 10px;
+    
+}
+
+main .plans-container .plan .buy-now {
+    padding: 20px 0 10px 0;
+}
+
+main .plans-container .plan .buy-now a {
+    text-decoration: underline;
+    color: #0061ff;
+}
+
+main .plans-container .plan .parting-row {
+    width: 50px;
+    margin: 20px 0;
+    border-bottom: 1px solid #d0d0d3;
+}
+
+main .plans-container .plan .plan-points .plan-point-item {
+    display: flex;
+    margin: 20px 20px;
+    gap: 10px;
+}
+
+main .plans-container .plan .plan-points .plan-point-item .plan-point-icon i {
+    color: #0061ff;
 }
