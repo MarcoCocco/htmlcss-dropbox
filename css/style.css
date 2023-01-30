@@ -7,6 +7,7 @@
 body {
     min-width: 1010px;
     font-family: 'Open Sans', sans-serif;
+
 }
 
 .header-container {
@@ -21,40 +22,64 @@ body {
     margin-right: auto;
 }
 
+.btn {
+    padding: 5px 10px;
+    background-color: #0061ff;
+    border: none;
+    color: white;
+}
 
+.btn:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
 
 /* /Utilities */
 
+nav {
+    position: fixed;
+    width: 100%;
+
+}
+
 nav .nav-inner {
-    background-color: grey;
-    border: 1px dotted black;
-    /*test*/
     width: 100%;
     height: auto;
+    padding: 0 10px;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 nav .nav-inner #logo {
-    background-color: aqua;
-    border: 1px dotted black;
-    padding: 5px;
-    /*test*/
+    display: flex;
+    padding: 20px 0;
+}
 
+nav .nav-inner #logo img {
+    width: 100%;
 }
 
 nav .nav-inner ul li {
-    background-color: azure;
-    border: 1px dotted black;
-    /*test*/
+    padding: 23px 0;
     list-style-type: none;
     display: inline-block;
+    font-size: 0.8em;
+}
+
+nav .nav-inner ul li:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+
 }
 
 nav .nav-inner .nav-left-menu,
 .nav-right-menu {
-    padding: 15px 10px;
     display: flex;
     align-items: center;
     gap: 30px;
@@ -67,12 +92,14 @@ nav .nav-inner .nav-left-menu ul li {
 nav .nav-inner .nav-right-menu ul li {
     margin-left: 30px;
 }
+
 /* /Navbar */
 
 header {
     width: 100%;
-    height: 540px;
-    margin-bottom: 7em;
+    height: 600px;
+    padding-top: 70px;
+    margin-bottom: 5em;
     background-color: #b4d0e7;
 }
 
@@ -88,7 +115,7 @@ header .header-container .header-info {
 
 header .header-container .header-info .header-text {
     max-width: 30%;
-    font-size: .8em;
+    font-size: 0.8em;
 }
 
 header .header-container .header-info .header-text .free-trial-btn {
@@ -98,4 +125,40 @@ header .header-container .header-info .header-text .free-trial-btn {
 header .header-container .header-info .header-image img {
     width: 100%;
 }
+
 /* /Header */
+
+main .business-plans h2 {
+    font-size: 2em;
+    padding: 1em 0;
+}
+
+main .business-plans form {
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+main .business-plans form label {
+    padding-right: 30px;
+}
+
+main .plans-container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .plans-container .plan {
+    border: 1px solid black;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .plans-container .professional .single-title {
+    font-size: .8em;
+    padding: 5px 0;
+    border-bottom: 1px solid black;
+}

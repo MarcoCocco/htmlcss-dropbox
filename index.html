@@ -27,7 +27,7 @@
             <div class="nav-left-menu">
 
                 <div id="logo">
-                    Dropbox
+                    <img src="images/logo-small.png" alt="">
                 </div>
 
                 <ul>
@@ -46,8 +46,8 @@
                     <li><a href="#">Accedi</a></li>
                 </ul>
 
-                <div class="btn start-button">
-                    <button>Inizia</button>
+                <div class="button-container">
+                    <button class="btn start-button">Inizia</button>
                 </div>
 
             </div>
@@ -70,7 +70,7 @@
                         Dropbox Business è più di uno spazio do archiviazione sicuro: è un modo intelligente e integrato
                         per ottimizzare il flusso di lavoro esistente.</p>
 
-                    <a href=""><button class="btn free-trial-btn">Inizia la prova gratuita</button></a>
+                    <a href=""><button class="btn free-trial-btn">Inizia la tua prova gratuita</button></a>
 
                     <div>Annulla in qualsiasi momento</div>
 
@@ -89,14 +89,27 @@
         <div class="page-container">
 
             <div class="business-plans">
+                <h2>Trova il piano business che fa per te</h2>
+                <form>
+                    <input type="radio" id="fatturazione-mensile" name="fav_fatturazione" value="Fatturazione Mensile">
+                    <label class="radio-text" for="fatturazione-mensile">Fatturazione Mensile</label>
+                    <input type="radio" id="fattuazione-annuale" name="fav_fatturazione" value="Fatturazione Annuale">
+                    <label class="radio-text" for="fatturazione-annuale">Fatturazione Annuale</label>
+                </form>
 
             </div>
 
             <div class="plans-container">
 
-                <div class="professional-plan"></div>
-                <div class="advanced-plan"></div>
-                <div class="enterprise-plan"></div>
+                <div class="professional plan">
+                    <div class="single-title">
+                        <i class="fa-solid fa-user"></i>
+                        Singolo
+                    </div>
+                    <h3>Professional</h3>
+                </div>
+                <div class="advanced plan"></div>
+                <div class="enterprise plan"></div>
 
             </div>
 
