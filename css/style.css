@@ -6,8 +6,6 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: .8em;
-
 }
 
 .header-container {
@@ -44,11 +42,6 @@ li {
     list-style: none;
 }
 
-hr {
-    border: 1px solid #d0d0d3;
-    width: 100%;
-}
-
 /* /Utilities */
 
 nav {
@@ -59,7 +52,6 @@ nav {
 
 nav .nav-inner {
     width: 100%;
-    height: auto;
     padding: 0 10px;
     background-color: white;
     display: flex;
@@ -68,7 +60,6 @@ nav .nav-inner {
 }
 
 nav .nav-inner #logo {
-    display: flex;
     padding: 20px 0;
 }
 
@@ -77,12 +68,12 @@ nav .nav-inner #logo img {
 }
 
 nav .nav-inner ul li {
-    padding: 23px 0;
+    padding: 24px 0;
     display: inline-block;
 }
 
 nav .nav-inner ul li:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     cursor: pointer;
 
 }
@@ -106,7 +97,6 @@ nav .nav-inner .nav-right-menu ul li {
 
 header {
     width: 100%;
-    height: 580px;
     padding-top: 70px;
     margin-bottom: 5em;
     background-color: #b4d0e7;
@@ -123,7 +113,17 @@ header .header-container .header-info {
 }
 
 header .header-container .header-info .header-text {
-    max-width: 30%;
+    width: 30%;
+}
+
+header .header-container .header-info .header-text .fa-arrow-down {
+    margin-top: 40px;
+    font-size: 2.5em;
+}
+
+header .header-container .header-info .header-image {
+    width: 70%;
+    margin-bottom: -70px;
 }
 
 header .header-container .header-info .header-text .free-trial-btn {
@@ -137,7 +137,6 @@ header .header-container .header-info .header-image img {
 /* /Header */
 
 main .business-plans h2 {
-    font-size: 2em;
     padding: 2em 0;
 }
 
@@ -164,14 +163,15 @@ main .plans-container .plan {
     justify-content: flex-start;
 }
 
-main .plans-container .plan .plan-lists-container {
-    padding: 20px 20px;
+main .plans-container .plan .single-title {
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid #d0d0d3;
 }
 
-main .plans-container .plan .single-title {
+main .plans-container .plan .plan-lists-container {
+    padding: 20px 20px;
     font-size: .8em;
-    padding: 5px 0;
-    align-self: center;
 }
 
 main .plans-container .plan .title-plan ul li {
@@ -195,9 +195,9 @@ main .plans-container .plan .plan-list .users,
 }
 
 main .plans-container .plan .button-container {
-    align-self: center;
     padding: 10px;
-    
+    text-align: center;
+
 }
 
 main .plans-container .plan .buy-now {
@@ -217,7 +217,7 @@ main .plans-container .plan .parting-row {
 
 main .plans-container .plan .plan-points .plan-point-item {
     display: flex;
-    margin: 20px 20px;
+    padding: 10px 20px;
     gap: 10px;
 }
 
@@ -226,7 +226,6 @@ main .plans-container .plan .plan-points .plan-point-item .plan-point-icon i {
 }
 
 main .contact-container {
-    margin-top: 20px;
     border: 1px solid #d0d0d3;
     width: 100%;
     display: flex;
@@ -234,9 +233,9 @@ main .contact-container {
 }
 
 main .contact-container .single-title {
-    font-size: .8em;
-    padding: 5px 0;
-    align-self: center;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid #d0d0d3;
 }
 
 .contact-container .plan-lists-container {
@@ -264,4 +263,109 @@ main .contact-container .single-title {
 
 .contact-container .plan-lists-container .sell-office {
     align-self: flex-start;
+}
+
+main .dropbox-partner {
+    margin: 100px 0;
+    width: 100%;
+    display: flex;
+}
+
+main .dropbox-partner .partner-image {
+    width: 65%;
+}
+
+main .dropbox-partner .partner-image img {
+    width: 100%;
+}
+
+main .dropbox-partner .partner-text {
+    width: 35%;
+    padding: 40px;
+}
+
+main .dropbox-partner .partner-text h3 {
+    padding: 10px 0;
+}
+
+main .dropbox-partner .partner-text .btn-discover {
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+
+main .dropbox-partner .partner-text .btn-discover:hover {
+    cursor: pointer;
+}
+
+main .business-operations h2 {
+    padding-bottom: 40px;
+}
+
+main .business-operations .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .business-operations .cards .card {
+    width: 30%;
+    padding-bottom: 40px;
+}
+
+main .business-operations .cards .card img {
+    width: 100%;
+}
+
+main .business-operations .cards .card .card-text {
+    font-size: .8em;
+}
+
+main .business-operations .cards .card .card-text h3 {
+    padding-bottom: 20px;
+}
+
+main .customers-discover {
+    width: 50%;
+}
+
+main .customers-discover h2 {
+    padding: 50px 0;
+}
+
+main .customers-discover span a {
+    text-decoration: underline;
+    color: #0061ff;
+    font-size: .8em;
+}
+
+main .carousel {
+    margin-top: 100px;
+    display: flex;
+}
+
+.carousel-square {
+    border: 1px solid black;
+    /*test*/
+    width: 50%;
+    height: 50%;
+}
+
+main .carousel .carousel-left {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .carousel .carousel-center {
+    flex-grow: 1;
+}
+
+main .carousel .carousel-right {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
 }
