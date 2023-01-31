@@ -483,6 +483,7 @@ main .faq-section h2 {
 main .faq-section .menu-open {
     height: 65px;
     overflow: hidden;
+    transition: all .5s;
 }
 
 main .faq-section .menu-open:hover {
@@ -499,10 +500,6 @@ main .faq-section .menu-open .question-icon {
 
 main .faq-section .menu-open .question-icon .open-icon {
     font-size: .6em;
-}
-
-main .faq-section .menu-open .open-icon:hover {
-    cursor: pointer;
 }
 
 main .faq-section .menu-open .hidden-text {
