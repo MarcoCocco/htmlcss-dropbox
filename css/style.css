@@ -347,8 +347,6 @@ main .carousel {
     display: flex;
 }
 
-
-
 .carousel-square {
     width: 50%;
     height: 50%;
@@ -412,8 +410,6 @@ main .carousel .carousel-center hr {
 main .carousel .carousel-center .carousel-info p:first-of-type {
     margin-bottom: 50px;
 }
-
-main .carousel .carousel-center .carousel-info {}
 
 main .carousel .carousel-right {
     width: calc(100vw / 3);
@@ -558,6 +554,8 @@ footer .larger-container .language .fa-caret-up {
     font-size: .8em;
 }
 
-footer .larger-container .language > *:hover {
+footer .larger-container .language>*:hover {
     cursor: pointer;
 }
+
+/* /Footer */
