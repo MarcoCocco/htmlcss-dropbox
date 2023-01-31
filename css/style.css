@@ -487,7 +487,8 @@ main .faq-section .menu-open {
 }
 
 main .faq-section .menu-open:hover {
-    overflow: visible;
+    overflow: auto;
+    overflow: hidden;
     height: 150px;
 }
 
