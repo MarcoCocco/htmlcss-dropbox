@@ -400,8 +400,8 @@ main .carousel .carousel-center {
     overflow: auto;
 }
 
-main .carousel .carousel-center > * {
-    margin-bottom: 50px; 
+main .carousel .carousel-center>* {
+    margin-bottom: 50px;
 }
 
 main .carousel .carousel-center hr {
@@ -413,9 +413,7 @@ main .carousel .carousel-center .carousel-info p:first-of-type {
     margin-bottom: 50px;
 }
 
-main .carousel .carousel-center .carousel-info {
-    
-}
+main .carousel .carousel-center .carousel-info {}
 
 main .carousel .carousel-right {
     width: calc(100vw / 3);
@@ -472,4 +470,41 @@ main .free-trial .free-trial-inner .free-trial-start-button .free-trial-start-bt
 main .free-trial .free-trial-inner .free-trial-start-button .free-trial-start-btn:hover {
     cursor: pointer;
     box-shadow: 5px 5px 20px;
+}
+
+main .faq-section {
+    padding: 100px 0;
+}
+
+main .faq-section h2 {
+    margin-bottom: 40px;
+}
+
+main .faq-section .menu-open {
+    height: 65px;
+    overflow: hidden;
+}
+
+main .faq-section .menu-open:hover {
+    overflow: visible;
+    height: 150px;
+}
+
+main .faq-section .menu-open .question-icon {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .faq-section .menu-open .question-icon .open-icon {
+    font-size: .6em;
+}
+
+main .faq-section .menu-open .open-icon:hover {
+    cursor: pointer;
+}
+
+main .faq-section .menu-open .hidden-text {
+    padding: 20px;
 }
