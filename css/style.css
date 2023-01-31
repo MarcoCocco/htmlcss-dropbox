@@ -8,7 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.header-container {
+.larger-container {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -102,35 +102,35 @@ header {
     background-color: #b4d0e7;
 }
 
-header .header-container h1 {
+header .larger-container h1 {
     padding: 30px 0;
     font-size: 3.5em;
 
 }
 
-header .header-container .header-info {
+header .larger-container .header-info {
     display: flex;
 }
 
-header .header-container .header-info .header-text {
+header .larger-container .header-info .header-text {
     width: 30%;
 }
 
-header .header-container .header-info .header-text .fa-arrow-down {
+header .larger-container .header-info .header-text .fa-arrow-down {
     margin-top: 40px;
     font-size: 2.5em;
 }
 
-header .header-container .header-info .header-image {
+header .larger-container .header-info .header-image {
     width: 70%;
     margin-bottom: -70px;
 }
 
-header .header-container .header-info .header-text .free-trial-btn {
+header .larger-container .header-info .header-text .free-trial-btn {
     margin: 20px 0;
 }
 
-header .header-container .header-info .header-image img {
+header .larger-container .header-info .header-image img {
     width: 100%;
 }
 
@@ -505,4 +505,59 @@ main .faq-section .menu-open .question-icon .open-icon {
 
 main .faq-section .menu-open .hidden-text {
     padding: 20px;
+}
+
+/* /Main */
+
+footer {
+    width: 100%;
+    background-color: black;
+}
+
+footer .larger-container .footer-list-info {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .larger-container .footer-list-info .footer-list ul li {
+    padding: 5px 0;
+    color: white;
+}
+
+footer .larger-container .footer-list-info .footer-list ul li:first-child {
+    padding: 20px 0;
+}
+
+footer .larger-container .footer-list-info .footer-list ul li a {
+    color: white;
+}
+
+footer .larger-container .footer-list-info .footer-list ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+footer .larger-container hr {
+    width: 10%;
+
+}
+
+footer .larger-container .language {
+    padding: 40px 0;
+    color: white;
+}
+
+footer .larger-container .language .fa-earth-europe {
+    padding-right: 10px;
+}
+
+footer .larger-container .language .fa-caret-up {
+    padding-left: 10px;
+    font-size: .8em;
+}
+
+footer .larger-container .language > *:hover {
+    cursor: pointer;
 }
