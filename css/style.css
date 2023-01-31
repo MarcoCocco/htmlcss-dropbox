@@ -293,10 +293,12 @@ main .dropbox-partner .partner-text .btn-discover {
     margin: 20px;
     background-color: #ffffff;
     border: 1px solid black;
+    transition: box-shadow .7s;
 }
 
 main .dropbox-partner .partner-text .btn-discover:hover {
     cursor: pointer;
+    box-shadow: 5px 5px 20px;
 }
 
 main .business-operations h2 {
@@ -464,8 +466,10 @@ main .free-trial .free-trial-inner .free-trial-start-button .free-trial-start-bt
     padding: 10px 30px;
     border: none;
     background-color: white;
+    transition: box-shadow .7s;
 }
 
 main .free-trial .free-trial-inner .free-trial-start-button .free-trial-start-btn:hover {
     cursor: pointer;
+    box-shadow: 5px 5px 20px;
 }
