@@ -299,7 +299,7 @@ main .dropbox-partner .partner-text .btn-discover {
 
 main .dropbox-partner .partner-text .btn-discover:hover {
     cursor: pointer;
-    box-shadow: 5px 5px 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
 }
 
 main .business-operations h2 {
@@ -512,7 +512,7 @@ main .free-trial .free-trial-inner .free-trial-start-button .free-trial-start-bt
 
 main .free-trial .free-trial-inner .free-trial-start-button .free-trial-start-btn:hover {
     cursor: pointer;
-    box-shadow: 5px 5px 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
 }
 
 main .faq-section {
