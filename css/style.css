@@ -73,9 +73,8 @@ nav .nav-inner ul li {
 }
 
 nav .nav-inner ul li:hover {
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     cursor: pointer;
-
 }
 
 nav .nav-inner .nav-left-menu,
@@ -103,7 +102,7 @@ header {
 }
 
 header .larger-container h1 {
-    padding: 30px 0;
+    padding: 1em 0;
     font-size: 3.5em;
 
 }
@@ -123,11 +122,11 @@ header .larger-container .header-info .header-text .fa-arrow-down {
 
 header .larger-container .header-info .header-image {
     width: 70%;
-    margin-bottom: -70px;
+    margin-bottom: -5em;
 }
 
 header .larger-container .header-info .header-text .free-trial-btn {
-    margin: 20px 0;
+    margin: 1.5em 0;
 }
 
 header .larger-container .header-info .header-image img {
@@ -146,11 +145,11 @@ main .business-plans form {
 }
 
 main .business-plans form label {
-    padding-right: 30px;
+    padding-right: 1.5em;
 }
 
 main .plans-container {
-    padding: 20px 0;
+    padding: 1.5em 0;
     display: flex;
     justify-content: space-between;
 }
@@ -377,14 +376,32 @@ main .carousel .carousel-left .one {
 
 main .carousel .carousel-left .two {
     background-color: #61082b;
+    transition: border .2s;
+}
+
+main .carousel .carousel-left .two:hover {
+    border: 10px solid #b92761;
+    cursor: pointer;
 }
 
 main .carousel .carousel-left .three {
     background-color: #0093ce;
+    transition: border .2s;
+}
+
+main .carousel .carousel-left .three:hover {
+    border: 10px solid #77d3f7;
+    cursor: pointer;
 }
 
 main .carousel .carousel-left .four {
     background-color: #ff1c1c;
+    transition: border .2s;
+}
+
+main .carousel .carousel-left .four:hover {
+    border: 10px solid #ff8282;
+    cursor: pointer;
 }
 
 main .carousel .carousel-center {
@@ -396,6 +413,10 @@ main .carousel .carousel-center {
     flex-grow: 1;
     flex-direction: column;
     overflow: auto;
+}
+
+main .carousel .carousel-center .carousel-logo svg {
+    width: 100%;
 }
 
 main .carousel .carousel-center>* {
@@ -420,18 +441,42 @@ main .carousel .carousel-right {
 
 main .carousel .carousel-right .five {
     background-color: #d5001f;
+    transition: border .2s;
+}
+
+main .carousel .carousel-right .five:hover {
+    border: 10px solid #ff5871;
+    cursor: pointer;
 }
 
 main .carousel .carousel-right .six {
     background-color: #b4d0e7;
+    transition: border .2s;
+}
+
+main .carousel .carousel-right .six:hover {
+    border: 10px solid #f0f8ff;
+    cursor: pointer;
 }
 
 main .carousel .carousel-right .seven {
     background-color: #0d2481;
+    transition: border .2s;
+}
+
+main .carousel .carousel-right .seven:hover {
+    border: 10px solid #5a78f0;
+    cursor: pointer;
 }
 
 main .carousel .carousel-right .height {
     background-color: #ffd830;
+    transition: border .2s;
+}
+
+main .carousel .carousel-right .height:hover {
+    border: 10px solid #ffeb91;
+    cursor: pointer;
 }
 
 main .free-trial {
@@ -479,7 +524,7 @@ main .faq-section h2 {
 main .faq-section .menu-open {
     height: 65px;
     overflow: hidden;
-    transition: all .5s;
+    transition: all .4s;
 }
 
 main .faq-section .menu-open:hover {
