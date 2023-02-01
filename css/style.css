@@ -59,21 +59,18 @@ nav .nav-inner {
     align-items: center;
 }
 
-nav .nav-inner #logo {
-    padding: 20px 0;
-}
-
 nav .nav-inner #logo img {
     width: 100%;
 }
 
 nav .nav-inner ul li {
-    padding: 24px 0;
+    padding: 20px 0;
     display: inline-block;
+    border-bottom: 3px solid white;
 }
 
 nav .nav-inner ul li:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid #007eff;
     cursor: pointer;
 }
 
